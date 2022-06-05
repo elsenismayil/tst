@@ -1,0 +1,57 @@
+.banner-img{
+    height:30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-img img{
+    height:100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.detail{
+    width: 650px;
+    z-index: 3;
+    position: relative;
+}
+
+.my_carousel{
+    width:1200px;
+    margin: auto;
+    position: relative;
+    padding-top: 5%;
+}
+.overlay{
+    position: absolute;
+    width: 100%;height: 100%;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #07070765, transparent);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #07070765, transparent); 
+    z-index: 2;
+}
+.fragman:hover{
+    background:rgb(224, 224, 224);
+    transition: 0.3s ease-in-out;
+}
+
+.movie-details:hover{
+background: rgb(209, 213, 219,0.3);
+transition: 0.3s ease-in-out;
+}
+.rec-arrow-right{
+    position: absolute;
+    right: 0.8%;
+    width: 5%;
+    z-index: 2;
+    background:rgba(0, 0, 0, 0.418);
+}
+.rec-arrow-left{
+    position: absolute;
+    left: 0.8%;
+    width: 5%;
+    z-index:2;
+   background:rgba(0, 0, 0, 0.418);
+}

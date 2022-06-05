@@ -1,0 +1,29 @@
+.githubLink{
+    color:#868e96;
+     font-size:1rem;
+}
+
+.footer h3{
+    color:#868e96;
+    font-size:0.75rem;
+}
+.footer-img { 
+    width:70px;
+    padding-left: "10px";
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h3:hover{
+    color:#fff;
+    transition:all 0.3s ease-in-out;
+}
+.githubLink:hover{
+    color:#fff;
+    transition:all 0.3s ease-in-out;
+}
+
+.footer-img{ padding-left:10px}

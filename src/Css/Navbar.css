@@ -1,0 +1,59 @@
+.navbar {
+  background: #bdc3c7; 
+  background: -webkit-linear-gradient(
+    to bottom,
+    #080b0e,
+    transparent
+  ); 
+  background: linear-gradient(
+    to bottom,
+    #080b0e,
+    transparent
+  );
+}
+.navbar-pic-arrow:active {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-search:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.register:hover {
+  color: red;
+}
+@media only screen and (min-width: 322px) and (max-width: 959px) {
+  .search {
+    display: none;
+  }
+  .navbar-right {
+    justify-content: flex-end;
+  }
+}
+
+.m-modal {
+  position: absolute;
+  width: 180px;
+  right: 2%;
+  top: 90%;
+  text-align: center;
+  font-size: 12px;
+  transition: all 0.4s ease;
+  padding: 10px 0px 5px 5px;
+  color: #e5e5e5;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid gray;
+  z-index: 3;
+}
+.logOut:active {
+  color: red;
+  transition: all 0.4s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
